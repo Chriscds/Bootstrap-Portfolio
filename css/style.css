@@ -1,0 +1,16 @@
+/* Sets Page properties */
+body {
+    background-color: #fffff5;
+}
+
+/* Navbar and Navigation properties */
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+/* sets how nav collapse appears */
+.nav-item {
+    margin-left: auto;
+    /* margin-right: 0 !important; */
+}
