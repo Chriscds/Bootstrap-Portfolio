@@ -3,6 +3,11 @@ body {
     background-color: #fffff5;
 }
 
+/* footer */
+footer {
+    text-align: center;
+}
+
 /* Navbar and Navigation properties */
 .navbar-nav {
     margin-left: auto;
