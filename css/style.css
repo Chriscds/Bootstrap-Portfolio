@@ -9,6 +9,12 @@ footer {
 }
 
 /* Navbar and Navigation properties */
+/* #nav-main {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: transparent !important;
+} */
 #nav-main .navbar-toggler {       /* !!!! Fix issue with hambuger color */
     /* background-color: grey; */
     color: black !important;
@@ -30,8 +36,15 @@ footer {
 
 /* Header section myHeroHeader */
 .myHeroHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(120, 184, 230, 0.5) 75%, #b9d9fe 100%);
 }
+.myHeroHeader h1 p {
+    align-items: center;
+    text-align: center;
+}
 .myImage {
-    
+
 }
