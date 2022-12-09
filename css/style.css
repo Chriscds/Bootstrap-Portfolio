@@ -9,6 +9,10 @@ footer {
 }
 
 /* Navbar and Navigation properties */
+#nav-main .navbar-toggler {       /* !!!! Fix issue with hambuger color */
+    /* background-color: grey; */
+    color: black !important;
+}
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
@@ -26,5 +30,8 @@ footer {
 
 /* Header section myHeroHeader */
 .myHeroHeader {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(120, 184, 230, 0.5) 75%, #b9d9fe 100%);
+}
+.myImage {
     
 }
