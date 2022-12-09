@@ -3,6 +3,10 @@ body {
     background-color: #fffff5;
 }
 
+h2, h3, h4, h5, h6, p {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* footer */
 footer {
     text-align: center;
@@ -40,6 +44,9 @@ footer {
     align-items: center;
     justify-content: center;
     background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(120, 184, 230, 0.5) 75%, #b9d9fe 100%);
+}
+.myHeroHeader h1 {
+    font-family: 'Bad Script', cursive;
 }
 .myHeroHeader h1 p {
     align-items: center;
