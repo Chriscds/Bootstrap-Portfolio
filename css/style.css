@@ -7,29 +7,26 @@ h2, h3, h4, h5, h6, p {
     font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+    text-decoration: 1px underline;
+}
+
+
 /* footer */
 footer {
     text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Navbar and Navigation properties */
-/* #nav-main {
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-    background-color: transparent !important;
-} */
-#nav-main .navbar-toggler {       /* !!!! Fix issue with hambuger color */
-    /* background-color: grey; */
-    color: black !important;
-}
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
 }
 .navbar-brand img {
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
 }
 
 /* sets how nav collapse appears */
@@ -57,6 +54,12 @@ footer {
 }
 
 /* Work section */
+.work-section-bg {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(120, 184, 230, 0.5) 75%, #b9d9fe71 90%, #b9d9fe24 100%);
+}
+.work-heading {
+    padding-bottom: 20px;
+}
 .card {
     cursor: pointer;
     border: 1px solid rgba(159, 159, 159, 0.245);
@@ -74,4 +77,22 @@ footer {
     width: 100%;
     height: 18vw;
     object-fit: cover;
+}
+
+/* Skills section */
+.skills-section-bg {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.244) 0%, rgba(120, 184, 230, 0.387) 50%, #b9d9fe2f 90%, #b9d9fe1d 100%);
+}
+
+.my-skills {
+    padding-top: 120px;
+}
+#my-skills-heading {
+    margin-bottom: 20px;
+}
+
+/* contact me and social icons */
+.social-icons {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
