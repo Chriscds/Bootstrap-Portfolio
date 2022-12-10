@@ -57,6 +57,17 @@ footer {
 }
 
 /* Work section */
+.card {
+    cursor: pointer;
+    border: 1px solid rgba(159, 159, 159, 0.245);
+    transition: 0.4s ease-in;
+}
+/* animates card on hover incluing shadow */
+.card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+    box-shadow: 4px 16px 4px rgba(28, 10, 10, 0.276) !important;
+}
 
 /* sets card img all to the same size */
 .card-img-top {
