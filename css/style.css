@@ -96,3 +96,16 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+/* sets social icons colors */
+.fa-linkedin {
+    color: rgb(0, 191, 255);
+}
+.fa-linkedin:hover {
+    color: rgb(24, 102, 227);
+}
+.fa-github {
+    color: rgb(128, 0, 255);
+}
+.fa-github:hover {
+    color: rgb(12, 3, 25);
+}
