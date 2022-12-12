@@ -34,6 +34,11 @@ footer {
     margin-left: auto;
     /* margin-right: 0 !important; */
 }
+.nav-item a:hover {
+    color: rgb(200, 19, 236) !important;
+    border-bottom: 2px dashed rgba(6, 223, 252, 0.962);
+    margin-bottom: -2px;
+}
 
 /* Header section myHeroHeader */
 .myHeroHeader {
@@ -49,9 +54,9 @@ footer {
     align-items: center;
     text-align: center;
 }
-.myImage {
+/* .myImage {
 
-}
+} */
 
 /* Work section */
 .work-section-bg {
