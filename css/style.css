@@ -88,6 +88,7 @@ footer {
     height: 18vw;
     object-fit: cover;
 }
+
 /* sets card button color */
 #button-color {
     background: linear-gradient(to bottom, rgb(137, 73, 170) 20%, rgb(111, 109, 251) 100%);
