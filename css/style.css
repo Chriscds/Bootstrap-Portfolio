@@ -98,7 +98,7 @@ footer {
     color: white;
 }
 
-/* Skills section */
+/* Skills and About Me section */
 .skills-section-bg {
     background: linear-gradient(to top, rgba(255, 255, 255, 0.244) 0%, rgba(120, 184, 230, 0.387) 50%, #b9d9fe2f 90%, #b9d9fe1d 100%);
 }
@@ -106,13 +106,16 @@ footer {
 .my-skills {
     padding-top: 120px;
 }
+#my-about-heading {
+    margin-bottom: 20px;
+}
 #my-skills-heading {
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 /* contact me and social icons */
 .social-icons {
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 /* sets social icons colors */
