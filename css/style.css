@@ -52,6 +52,7 @@ footer {
     font-family: 'Bad Script', cursive;
 }
 .myHeroHeader h1 p {
+    display: flex;
     align-items: center;
     text-align: center;
 }
