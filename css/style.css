@@ -11,7 +11,6 @@ h2 {
     text-decoration: 1px underline;
 }
 
-
 /* footer */
 footer {
     text-align: center;
@@ -102,7 +101,6 @@ footer {
 .skills-section-bg {
     background: linear-gradient(to top, rgba(255, 255, 255, 0.244) 0%, rgba(120, 184, 230, 0.387) 50%, #b9d9fe2f 90%, #b9d9fe1d 100%);
 }
-
 .my-skills {
     padding-top: 120px;
 }
@@ -135,6 +133,7 @@ footer {
     transition: 0.4s ease-out;
     box-shadow: 4px 12px 4px rgba(28, 10, 10, 0.276) !important;
 }
+
 /* sets social icons colors */
 .fa-linkedin {
     color: rgb(0, 191, 255);
