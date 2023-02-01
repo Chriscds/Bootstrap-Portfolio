@@ -100,6 +100,14 @@ footer {
     height: 18vw;
     object-fit: cover;
 }
+/* button position */
+.card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    /* padding: auto; */
+}
 /* sets card button color */
 #button-color {
     background: linear-gradient(to bottom, rgb(137, 73, 170) 20%, rgb(111, 109, 251) 100%);
@@ -107,7 +115,7 @@ footer {
 }
 /* sets card button color on hover */
 #button-color:hover {
-    background: linear-gradient(to bottom, rgb(152, 117, 169) 20%, rgb(154, 152, 250) 100%);
+    background: linear-gradient(to bottom, rgb(64, 50, 71) 20%, rgb(34, 34, 56) 100%);
     color: white;
 }
 
