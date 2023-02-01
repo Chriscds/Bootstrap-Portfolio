@@ -47,6 +47,7 @@ footer {
     justify-content: center;
     background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(120, 184, 230, 0.5) 75%, #b9d9fe 100%);
 }
+/* My name */
 .myHeroHeader h1 {
     font-family: 'Bad Script', cursive;
 }
@@ -55,6 +56,13 @@ footer {
     align-items: center;
     text-align: center;
 }
+/* My title */
+.myHeroHeader p {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+/* Profile image */
 .myImage {
     display: flex;
     margin: auto;
@@ -62,7 +70,6 @@ footer {
     margin-bottom: 60px;
     width: 250px;
 }
-
 
 /* Work section */
 .work-section-bg {
@@ -128,17 +135,25 @@ footer {
     padding-bottom: 100px;
 }
 /* Contact me button */
-.contact-button {
+.resume-div-button {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 80px;
 }
 /* contact me button on heover */
-.contact-me-button:hover {
+.resume-button:hover {
     transform: translateY(-10px);
     transition: 0.4s ease-out;
     box-shadow: 4px 12px 4px rgba(28, 10, 10, 0.276) !important;
+}
+
+.email-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 /* sets social icons colors */
