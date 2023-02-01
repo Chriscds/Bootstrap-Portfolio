@@ -55,6 +55,13 @@ footer {
     align-items: center;
     text-align: center;
 }
+.myImage {
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    width: 250px;
+}
 
 
 /* Work section */
