@@ -133,6 +133,25 @@ footer {
     margin-top: 100px;
     margin-bottom: 20px;
 }
+/* font awesome icons */
+.fa-html5 {
+    color: rgb(252, 62, 62);
+}
+.fa-css3-alt {
+    color: rgb(62, 113, 252);
+}
+.fa-square-js {
+    color: rgb(225, 222, 49);
+}
+.fa-git-alt {
+    color: rgb(237, 67, 28);
+}
+.fa-react {
+    color: rgb(14, 189, 247);
+}
+.fa-node-js {
+    color: rgb(71, 201, 142);
+}
 
 /* contact me and social icons */
 .social-icons {
@@ -171,10 +190,10 @@ footer {
 .fa-linkedin:hover {
     color: rgb(24, 102, 227);
 }
-.fa-github {
+.github {
     color: rgb(128, 0, 255);
 }
-.fa-github:hover {
+.github:hover {
     color: rgb(12, 3, 25);
 }
 
