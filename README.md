@@ -16,7 +16,7 @@ This is my Portfolio that includes work and assignments I have completed for my 
 
 
 ## Screenshot
-![Chris Southon Portfolio](images/portfolio-screenshot.png)
+![Chris Southon Portfolio](images/portfolio.png)
 ## Usage
 
 You can view my Portfolio [here](https://chriscds.github.io/Bootstrap-Portfolio/index.html).
